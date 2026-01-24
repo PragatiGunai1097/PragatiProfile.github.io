@@ -73,6 +73,8 @@ figure {
   position: relative; }
 
 #colorlib-aside {
+  box-shadow: 0 16px 40px rgb(29 130 196 / 34%);
+    transform: translateY(-4px);
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -94,18 +96,19 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em; } }
   #colorlib-aside .author-img {
-    width: 150px;
-    height: 225px;
+    width: 174px;
+    height: 182px;
     margin: 0 auto;
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    box-shadow: 0 16px 40px rgb(29 130 196 / 23%);
+    border-radius: -2%; }
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
@@ -135,7 +138,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
