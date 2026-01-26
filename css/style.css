@@ -383,7 +383,7 @@ body.offcanvas {
 .prgprofile-about,
 .prgprofile-services,
 .prgprofile-contact {
-  padding-top: 4em;
+  padding-top: 3em;
   padding-bottom: 7em;
   clear: both;
   width: 100%;
@@ -1004,7 +1004,23 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
         color: #000; }
+
     @media screen and (max-width: 768px) {
+
+      #Profiletxt{
+        margin-bottom: 165%;
+      }
+      #Probgimg{
+            background-position: center!important;
+                background-size: 65%!important;
+
+      }
+      #prgprofile-hero {
+         height: 552px;
+      }
+
+
+
       .project .desc {
         opacity: 1;
         background: rgba(0, 0, 0, 0.4); }
